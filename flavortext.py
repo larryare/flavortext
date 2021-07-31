@@ -321,6 +321,10 @@ number_of_nouns = 100
 
 
 def get_full_line(constructive: bool = True):
+    '''
+    Returns one flavor text
+    :param bool constructive: constructive or destructive
+    '''
     last_constructive_verb_number = number_of_constructive_verbs
     last_destructive_verb_number = number_of_destructive_verbs
     last_noun_number = number_of_nouns
@@ -409,7 +413,12 @@ def main(construct, slow: bool = False, endless: bool = False):
 
 
 def get_flavor_list(construct: bool = True, length: int = 5):
-    flavor_list = [get_full_line(construct) for _ in range(length)]
+    '''
+    Returns a list of flavor text lines
+    :param bool construct: constructive or destructive
+    :param int length: How many lines to generate
+    '''
+    return [get_full_line(construct) for _ in range(length)]
 
 
 if __name__ == "__main__":
