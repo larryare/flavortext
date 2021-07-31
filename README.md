@@ -1,8 +1,19 @@
 # Flavortext
 
+[![GitHub issues](https://img.shields.io/github/issues/larryare/flavortext)](https://github.com/larryare/flavortext/issues)
+[![GitHub license](https://img.shields.io/github/license/larryare/flavortext)](https://github.com/larryare/flavortext/blob/master/LICENSE)
+![](https://img.shields.io/badge/Version-1.0-success)
+
 Converted Voidstar lab's C++ code into python.
 
 Usable standalone or as module.
+
+## Demo
+
+#### Constructors
+![Constructors](https://media.giphy.com/media/fw7DiDjcoc7rEeQh8A/giphy.gif)
+#### Destructors
+![Destructor](https://media.giphy.com/media/bzW0XrF2G1fLe1of0Q/giphy.gif)
 
 ## Usage
 
